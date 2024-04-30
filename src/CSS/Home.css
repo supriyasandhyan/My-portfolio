@@ -1,0 +1,49 @@
+.home-container {
+    height: 300px;
+    color: white;
+}
+
+.home-content h2 {
+    padding: 5px;
+    padding-top: 80px;
+    margin-left: 120px;
+}
+
+.home-content h1 {
+    color: #e0b50f;
+    padding: 5px;
+    margin-left: 120px;
+}
+
+.home-btns{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.home-btns .btn-hire{
+    background-color: blue;
+    width: 160px;
+    color: white;
+}
+
+.home-btns .btn-hire:hover{
+    background-color: white;
+    width: 200px;
+    color: blue;
+    transition: 1s;
+}
+
+.home-btns .btn-cv{
+    background-color: blue;
+    width: 160px;
+    color: white;
+    margin-left: 15px;
+}
+
+.home-btns .btn-cv:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    width: 200px;
+}
+
