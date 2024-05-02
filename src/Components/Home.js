@@ -6,7 +6,7 @@ import resume from '../Images/SupriyaSandhyan.pdf'
 const Home = () => {
   return (
     <>
-      <div className="container-fluid home-container">
+      <div className="container-fluid home-container" id="homeid">
         <div className="container home-content">
           <h2>Hi 🙋‍♀️ i'm a </h2>
           <h1>

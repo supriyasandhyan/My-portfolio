@@ -4,6 +4,14 @@ import pic from "../Images/profilepic.jpeg";
 import { FcAbout, FcBiotech, FcHome, FcPortraitMode } from "react-icons/fc";
 import { MdCastForEducation, MdContactPhone } from "react-icons/md";
 import { GrProjects } from "react-icons/gr";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const Menus = ({ toggle }) => {
   return (
@@ -17,25 +25,81 @@ const Menus = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
-                <FcHome/> Home
+                <Link
+                  to="homeid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcHome /> Home
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAbout/> About
+              <Link
+                  to="aboutid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcAbout /> About
+                </Link>
               </div>
               <div className="nav-link">
-                <FcPortraitMode/> Experience
+              <Link
+                  to="eduid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <MdCastForEducation /> Education
+                </Link>
               </div>
               <div className="nav-link">
-                <FcBiotech/> Tech Stack
+              <Link
+                  to="techid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcBiotech /> Tech Stack
+                </Link>
               </div>
               <div className="nav-link">
-                <MdCastForEducation/> Education
+              <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <GrProjects /> Projects
+                </Link>
               </div>
               <div className="nav-link">
-                <GrProjects/> Projects
+              <Link
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcPortraitMode /> Experience
+                </Link>
               </div>
               <div className="nav-link">
-                <MdContactPhone/> Contact
+              <Link
+                  to="contactid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <MdContactPhone /> Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -45,25 +109,81 @@ const Menus = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
-                <FcHome title="Home"/>
+              <Link
+                  to="homeid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcHome title="Home" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAbout title="About"/>
+              <Link
+                  to="aboutid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcAbout title="About" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcPortraitMode title="Experience"/>
+              <Link
+                  to="eduid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <MdCastForEducation title="Education" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcBiotech title="Techstack"/>
+              <Link
+                  to="techid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcBiotech title="Techstack" />
+                </Link>
               </div>
               <div className="nav-link">
-                <MdCastForEducation title="Education"/>
+              <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <GrProjects title="Projects" />
+                </Link>
               </div>
               <div className="nav-link">
-                <GrProjects title="Projects"/>
+              <Link
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <FcPortraitMode title="Experience" />
+                </Link>
               </div>
               <div className="nav-link">
-                <MdContactPhone title="Contact"/>
+              <Link
+                  to="contactid"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                <MdContactPhone title="Contact" />
+                </Link>
               </div>
             </div>
           </div>

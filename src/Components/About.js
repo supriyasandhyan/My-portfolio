@@ -5,7 +5,7 @@ import pic from "../Images/profilepic.jpeg";
 const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="about" id="aboutid">
         <div className="row about-row">
           <div className="col-md-4 about-img">
             <img src={pic} alt="profile-pic" />
