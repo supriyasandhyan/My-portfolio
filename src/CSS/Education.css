@@ -1,0 +1,29 @@
+.education {
+    margin: 50px 0px;
+    margin-left: 140px;
+    background-color: rgba(128, 128, 128, 0.064);
+}
+
+.education h2 {
+    font-weight: bold;
+    color: #138781;
+}
+
+.education hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+  }
+
+.education .vertical-timeline-element-title{
+    color: #138781;
+    font-weight: lighter;
+}
+.education .vertical-timeline-element-subtitle{
+    color: #1a1a2c;
+    font-weight: lighter;
+}
+.cgpa-content{
+    color: #1a1a2c;
+    font-weight:lighter;
+}
