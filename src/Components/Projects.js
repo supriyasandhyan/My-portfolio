@@ -12,11 +12,7 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia a
-          odit ab, eligendi cupiditate, minima quasi excepturi modi et quo
-          delectus, iusto dolor atque aliquam aspernatur eveniet! Ipsam eum
-          nobis omnis id voluptatibus quas eos maxime ipsum facere numquam,
-          voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
+          These are my top recent projects
         </p>
         {/* card design */}
         <div className="row" id="ads">
