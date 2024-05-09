@@ -47,3 +47,45 @@
     width: 200px;
 }
 
+/* mobile view  */
+
+@media (max-width:600px){
+
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-container{
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .home-container h2{
+        font-size: 24px;
+        margin-left: 0px;
+    }
+
+    .home-container h1{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .home-btns{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .home-btns .btn-hire{
+        background-color: blue;
+        width: 160px;
+        color: white;
+    }
+
+    .home-btns .btn-cv{
+       margin-left: 0px;
+        margin-top: 15px;
+    }
+}

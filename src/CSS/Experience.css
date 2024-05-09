@@ -52,6 +52,18 @@
     }
 
     .work hr {
-        width: 280px;
+        width: 240px;
+    }
+
+    .work-exp .vertical-timeline-element-title {
+        font-size: 15px;
+    }
+
+    .work-exp .vertical-timeline-element-subtitle{
+        font-size: 13px;
+    }
+
+    .work-content li {
+        font-size: 10px;
     }
 }
